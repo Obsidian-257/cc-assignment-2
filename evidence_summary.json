@@ -1,0 +1,7 @@
+{
+  "file": "uploads/sample_sales.csv",
+  "chunks_processed": 6,
+  "total_records": 1500,
+  "total_revenue": 381441.59,
+  "average_transaction": 254.29
+}
