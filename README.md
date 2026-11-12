@@ -1,5 +1,7 @@
 # Assignment 2 — Event-Driven Processing with Azure Durable Functions
 
+**Name:** K. Montarroso · **Campus:** Madrid
+
 An event-driven serverless pipeline built on **Azure Functions (Flex Consumption, Python 3.12)** and **Azure Durable Functions** using the **Fan-Out / Fan-In** pattern. When a CSV file arrives in Azure Blob Storage, an **Event Grid** subscription triggers an orchestrator that splits the records into parallel chunks, processes them concurrently across activity functions, aggregates the totals, and writes a JSON summary back to Blob Storage.
 
 ---
